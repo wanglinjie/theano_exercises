@@ -1,0 +1,1 @@
+python lbfgstrainer.py -instances ./input/sample-training-file.txt -model ./input/sample-output.txt -word_vector ./input/sample-word-vectors-trained-by-word2vec.txt

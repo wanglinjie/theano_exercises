@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DataBuffer	ioutil.py	/^class DataBuffer(object):$/;"	c
+Gradients	rae.py	/^    class Gradients(object):$/;"	c	class:RecursiveAutoencoder
+GridentCheckingFailedError	errors.py	/^class GridentCheckingFailedError(Exception):$/;"	c
+Instance	instance.py	/^class Instance(object):$/;"	c
+InternalNode	rae.py	/^class InternalNode(object):$/;"	c
+Is	functions.py	/^Is = []$/;"	v
+LeafNode	rae.py	/^class LeafNode(object):$/;"	c
+Reader	ioutil.py	/^class Reader(DataBuffer):$/;"	c
+RecursiveAutoencoder	rae.py	/^class RecursiveAutoencoder(object):$/;"	c
+ThetaSaver	lbfgstrainer.py	/^class ThetaSaver(object):$/;"	c
+Timer	timeutil.py	/^class Timer(object):$/;"	c
+UnexpectedStateError	errors.py	/^class UnexpectedStateError(Exception):$/;"	c
+UnsupportedOperationError	errors.py	/^class UnsupportedOperationError(Exception):$/;"	c
+WordVectors	wordvector.py	/^class WordVectors(object):$/;"	c
+Writer	ioutil.py	/^class Writer(DataBuffer):$/;"	c
+__all__	functions.py	/^__all__ = ['softmax', 'sigmoid', 'tanh_norm1_prime', 'sum_along_column']$/;"	v
+__all__	ioutil.py	/^__all__ = ['Reader', 'Writer', 'make_parent_dirs']$/;"	v
+__all__	util.py	/^__all__ = ['init_W', 'init_We']$/;"	v
+__backward	rae.py	/^    def __backward(self, node, total_grad, delta_parent_out):$/;"	m	class:RecursiveAutoencoder	file:
+__build_internal_node	rae.py	/^    def __build_internal_node(self, c1_node, c2_node):$/;"	m	class:RecursiveAutoencoder	file:
+__call__	lbfgstrainer.py	/^    def __call__(self, xk):$/;"	m	class:ThetaSaver	file:
+__enter__	ioutil.py	/^    def __enter__(self):$/;"	m	class:DataBuffer	file:
+__exit__	ioutil.py	/^    def __exit__(self, exception_type, exception_val, trace):$/;"	m	class:DataBuffer	file:
+__getitem__	wordvector.py	/^    def __getitem__(self, index_or_index_array):$/;"	m	class:WordVectors	file:
+__init	errors.py	/^    def __init(self, msg):$/;"	m	class:GridentCheckingFailedError	file:
+__init	errors.py	/^    def __init(self, msg):$/;"	m	class:UnsupportedOperationError	file:
+__init__	errors.py	/^    def __init__(self, msg):$/;"	m	class:UnexpectedStateError
+__init__	instance.py	/^    def __init__(self, words, freq=1):$/;"	m	class:Instance
+__init__	ioutil.py	/^    def __init__(self, filename, encoding='utf-8'):$/;"	m	class:Reader
+__init__	ioutil.py	/^    def __init__(self, filename, encoding='utf-8'):$/;"	m	class:Writer
+__init__	ioutil.py	/^    def __init__(self, filename, mode='r', encoding='utf-8'):$/;"	m	class:DataBuffer
+__init__	lbfgstrainer.py	/^    def __init__(self, model_name, every=1):$/;"	m	class:ThetaSaver
+__init__	rae.py	/^        def __init__(self, rae):$/;"	m	class:RecursiveAutoencoder.Gradients
+__init__	rae.py	/^    def __init__(self, Wi1, Wi2, bi, Wo1, Wo2, bo1, bo2,$/;"	m	class:RecursiveAutoencoder
+__init__	rae.py	/^    def __init__(self, index, embedding):$/;"	m	class:LeafNode
+__init__	rae.py	/^    def __init__(self, index,$/;"	m	class:InternalNode
+__init__	wordvector.py	/^    def __init__(self, embsize):$/;"	m	class:WordVectors
+__iter__	ioutil.py	/^    def __iter__(self):$/;"	m	class:DataBuffer	file:
+__len__	wordvector.py	/^    def __len__(self):$/;"	m	class:WordVectors	file:
+__mul__	rae.py	/^        def __mul__(self, other):$/;"	m	class:RecursiveAutoencoder.Gradients	file:
+__str__	errors.py	/^    def __str__(self):$/;"	m	class:GridentCheckingFailedError	file:
+__str__	errors.py	/^    def __str__(self):$/;"	m	class:UnexpectedStateError	file:
+__str__	errors.py	/^    def __str__(self):$/;"	m	class:UnsupportedOperationError	file:
+__str__	instance.py	/^    def __str__(self):$/;"	m	class:Instance	file:
+_seed	lbfgstrainer.py	/^    _seed = options.seed$/;"	v	class:ThetaSaver
+args	lbfgstrainer.py	/^    args = (instances, total_internal_node, word_vectors, embsize, lambda_reg)$/;"	v	class:ThetaSaver
+backward	rae.py	/^    def backward(self, root_node, total_grad, delta_parent=None):$/;"	m	class:RecursiveAutoencoder
+build	rae.py	/^    def build(cls, theta, embsize):$/;"	m	class:RecursiveAutoencoder
+callback	lbfgstrainer.py	/^    callback = ThetaSaver(model, every)    $/;"	v	class:ThetaSaver
+check_grad	gradutil.py	/^def check_grad(func, x0, func_prime=None, args=(), level=1e-5, verbose=0):$/;"	f
+checking_grad	lbfgstrainer.py	/^    checking_grad = options.checking_grad$/;"	v	class:ThetaSaver
+close	ioutil.py	/^    def close(self):$/;"	m	class:DataBuffer
+compute_cost_and_grad	lbfgstrainer.py	/^def compute_cost_and_grad(theta, instances, total_internal_node_num,$/;"	f
+compute_parameter_num	rae.py	/^    def compute_parameter_num(cls, embsize):$/;"	m	class:RecursiveAutoencoder
+embsize	lbfgstrainer.py	/^    embsize = word_vectors.embsize()$/;"	v	class:ThetaSaver
+embsize	rae.py	/^    embsize = word_vectors.embsize()$/;"	v	class:RecursiveAutoencoder
+embsize	wordvector.py	/^    def embsize(self):$/;"	m	class:WordVectors
+encode	rae.py	/^    def encode(self, words_embedded):$/;"	m	class:RecursiveAutoencoder
+every	lbfgstrainer.py	/^    every = options.every$/;"	v	class:ThetaSaver
+forward	rae.py	/^    def forward(self, words_embedded):$/;"	m	class:RecursiveAutoencoder
+func	lbfgstrainer.py	/^    func = compute_cost_and_grad$/;"	v	class:ThetaSaver
+get_I	functions.py	/^def get_I(row_num):$/;"	f
+get_bias_square	rae.py	/^    def get_bias_square(self):$/;"	m	class:RecursiveAutoencoder
+get_embsize	rae.py	/^    def get_embsize(self):$/;"	m	class:RecursiveAutoencoder
+get_weights_square	rae.py	/^    def get_weights_square(self):$/;"	m	class:RecursiveAutoencoder
+get_word_index	wordvector.py	/^    def get_word_index(self, word):$/;"	m	class:WordVectors
+get_zero_gradients	rae.py	/^    def get_zero_gradients(self):$/;"	m	class:RecursiveAutoencoder
+init_W	util.py	/^def init_W(row, col, return_row_vector=True):$/;"	f
+init_theta	lbfgstrainer.py	/^def init_theta(embsize, _seed=None):$/;"	f
+instances_file	lbfgstrainer.py	/^    instances_file = options.instances$/;"	v	class:ThetaSaver
+iprint	lbfgs.py	/^iprint=1 $/;"	v
+lambda_reg	lbfgstrainer.py	/^    lambda_reg = options.lambda_reg$/;"	v	class:ThetaSaver
+load_instances	lbfgstrainer.py	/^def load_instances(instance_strs, word_vectors):$/;"	f
+load_vectors	wordvector.py	/^    def load_vectors(cls, filename):$/;"	m	class:WordVectors
+logger	lbfgstrainer.py	/^    logger = logging.getLogger(__name__)$/;"	v	class:ThetaSaver
+logger	lbfgstrainer.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	rae.py	/^logger = logging.getLogger(__name__)$/;"	v
+make_parent_dirs	ioutil.py	/^def make_parent_dirs(filename):$/;"	f
+maxiter	lbfgs.py	/^maxiter=10$/;"	v
+maxiter	lbfgstrainer.py	/^    maxiter = options.maxiter$/;"	v	class:ThetaSaver
+model	lbfgstrainer.py	/^    model = options.model$/;"	v	class:ThetaSaver
+next	ioutil.py	/^    def next(self):$/;"	m	class:DataBuffer
+numerical_grad	gradutil.py	/^def numerical_grad(func, x0, grad_actual, with_grad=True, args=(), level=1e-5,$/;"	f
+opt_time	lbfgstrainer.py	/^    opt_time = timer.toc()$/;"	v	class:ThetaSaver
+optimize	lbfgs.py	/^def optimize(func, x0, maxiter, verbose=1, check_grad=False, args=(),$/;"	f
+options	lbfgstrainer.py	/^    options = parser.parse_args()$/;"	v	class:ThetaSaver
+options	rae.py	/^    options = parser.parse_args()$/;"	v	class:RecursiveAutoencoder
+options	wordvector.py	/^    options = parser.parse_args()$/;"	v	class:WordVectors
+output_file	rae.py	/^    output_file = options.output$/;"	v	class:RecursiveAutoencoder
+parse_from_str	instance.py	/^    def parse_from_str(cls, line, word_vector):$/;"	m	class:Instance
+parser	lbfgstrainer.py	/^    parser = argparse.ArgumentParser()$/;"	v	class:ThetaSaver
+parser	rae.py	/^    parser = argparse.ArgumentParser()$/;"	v	class:RecursiveAutoencoder
+parser	wordvector.py	/^    parser = argparse.ArgumentParser()$/;"	v	class:WordVectors
+phrases_file	rae.py	/^    phrases_file = options.phrases$/;"	v	class:RecursiveAutoencoder
+prepare_data	lbfgstrainer.py	/^def prepare_data(word_vectors=None, datafile=None):$/;"	f
+process_local_batch	lbfgstrainer.py	/^def process_local_batch(rae, word_vectors, instances):$/;"	f
+rae	rae.py	/^    rae = RecursiveAutoencoder.build(theta, embsize)$/;"	v	class:RecursiveAutoencoder
+read	ioutil.py	/^    def read(self):$/;"	m	class:DataBuffer
+readline	ioutil.py	/^    def readline(self):$/;"	m	class:DataBuffer
+save_theta0	lbfgstrainer.py	/^    save_theta0 = options.save_theta0$/;"	v	class:ThetaSaver
+sigmoid	functions.py	/^def sigmoid(x):$/;"	f
+softmax	functions.py	/^def softmax(x):$/;"	f
+sum_along_column	functions.py	/^def sum_along_column(matrix):$/;"	f
+tanh_norm1_prime	functions.py	/^def tanh_norm1_prime(p_unnormalized):$/;"	f
+theta	rae.py	/^    theta = unpickle(theta_file)$/;"	v	class:RecursiveAutoencoder
+theta0	lbfgstrainer.py	/^    theta0 = init_theta(embsize, _seed=_seed)$/;"	v	class:ThetaSaver
+theta0_init_time	lbfgstrainer.py	/^    theta0_init_time = timer.toc()$/;"	v	class:ThetaSaver
+theta0_saving_time	lbfgstrainer.py	/^    theta0_saving_time = timer.toc()$/;"	v	class:ThetaSaver
+theta_file	rae.py	/^    theta_file = options.theta$/;"	v	class:RecursiveAutoencoder
+theta_opt	lbfgstrainer.py	/^    theta_opt = None$/;"	v	class:ThetaSaver
+thetaopt_saving_time	lbfgstrainer.py	/^    thetaopt_saving_time = timer.toc()  $/;"	v	class:ThetaSaver
+tic	timeutil.py	/^    def tic(self):$/;"	m	class:Timer
+timer	lbfgstrainer.py	/^    timer = Timer()$/;"	v	class:ThetaSaver
+to_row_vector	rae.py	/^        def to_row_vector(self):$/;"	m	class:RecursiveAutoencoder.Gradients
+toc	timeutil.py	/^    def toc(self):$/;"	m	class:Timer
+total_cost	rae.py	/^    total_cost = 0$/;"	v	class:RecursiveAutoencoder
+total_instance_num	rae.py	/^    total_instance_num = 0$/;"	v	class:RecursiveAutoencoder
+total_internal_node_num	rae.py	/^    total_internal_node_num = 0$/;"	v	class:RecursiveAutoencoder
+unpickle	ioutil.py	/^def unpickle(filename):$/;"	f
+verbose	lbfgstrainer.py	/^    verbose = options.verbose$/;"	v	class:ThetaSaver
+word_vector_file	lbfgstrainer.py	/^    word_vector_file = options.word_vector$/;"	v	class:ThetaSaver
+word_vector_file	rae.py	/^    word_vector_file = options.word_vector_file$/;"	v	class:RecursiveAutoencoder
+word_vector_file	wordvector.py	/^    word_vector_file = options.word_vector_file$/;"	v	class:WordVectors
+word_vectors	lbfgstrainer.py	/^    word_vectors = WordVectors.load_vectors(word_vector_file)$/;"	v	class:ThetaSaver
+word_vectors	rae.py	/^    word_vectors = WordVectors.load_vectors(word_vector_file)$/;"	v	class:RecursiveAutoencoder
+word_vectors	wordvector.py	/^    word_vectors = WordVectors.load_vectors(word_vector_file)$/;"	v	class:WordVectors
+write	ioutil.py	/^    def write(self, string):$/;"	m	class:DataBuffer
+writelines	ioutil.py	/^    def writelines(self, sequence_of_strings):$/;"	m	class:DataBuffer
